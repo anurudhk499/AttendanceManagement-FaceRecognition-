@@ -1,4 +1,4 @@
-# Attendance Management ##(using face recognition)
+# Attendance Management ## (using face recognition)
 
 ### Project Description  
 A real-time face recognition-based attendance management system that captures faces, stores face encodings, and marks attendance automatically when a known face is detected.  
@@ -14,25 +14,43 @@ This project is divided into three main parts:
 * Easy dataset generation for new users.  
 * Simple CSV-based attendance log.  
 
-### Installation & Setup  
-1. Clone the repository:  
-   git clone <repository-link>  
-   cd Face-Recognition-Attendance-System  
+### Installation & Setup
 
-2. Install Dependencies:  
-   pip install opencv-python opencv-python-headless face_recognition numpy  
+1. Clone the repository:
 
-3. Prepare Dataset:Run `capture_faces.py` to capture images for new users:  
-   python capture_faces.py   
-   Follow the instructions to enter User ID and Name.  
+   ```bash
+   git clone <repository-link>
+   cd Face-Recognition-Attendance-System
+   ```
 
-4. Generate Encodings:After capturing images, run:    
-   python face_encoding.py  
- 
+2. Install Dependencies:
 
-5. Run the Attendance System:Finally, launch the attendance marking application:  
-   python attendance.py  
+   ```bash
+   pip install opencv-python opencv-python-headless face_recognition numpy
+   ```
 
+3. Prepare Dataset:
+   Run `capture_faces.py` to capture images for new users:
+
+   ```bash
+   python capture_faces.py
+   ```
+
+   Follow the instructions to enter User ID and Name.
+
+4. Generate Encodings:
+   After capturing images, run:
+
+   ```bash
+   python face_encoding.py
+   ```
+
+5. Run the Attendance System:
+   Finally, launch the attendance marking application:
+
+   ```bash
+   python attendance.py
+   ```
 
 ### File Descriptions  
 * `capture_faces.py` - Script to capture face images and store them in the dataset.  
@@ -61,10 +79,4 @@ Special thanks to the OpenCV and Face Recognition libraries for their robust too
 * Email notifications for attendance confirmation.  
 * Real-time monitoring and analytics dashboard.
  
-3. Prepare Dataset:
-   Run `capture_faces.py` to capture images for new users:
-
-   ```bash
-   python capture_faces.py
-   ```
 
