@@ -1,5 +1,4 @@
-# Attendance Management 
-(using face recognition)
+# Attendance Management ##(using face recognition)
 
 ### Project Description  
 A real-time face recognition-based attendance management system that captures faces, stores face encodings, and marks attendance automatically when a known face is detected.  
@@ -62,4 +61,10 @@ Special thanks to the OpenCV and Face Recognition libraries for their robust too
 * Email notifications for attendance confirmation.  
 * Real-time monitoring and analytics dashboard.
  
+3. Prepare Dataset:
+   Run `capture_faces.py` to capture images for new users:
+
+   ```bash
+   python capture_faces.py
+   ```
 
