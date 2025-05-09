@@ -1,6 +1,7 @@
-# Attendance Management(using face recognition)
+# Attendance Management 
+(using face recognition)
 
-## Project Description  
+### Project Description  
 A real-time face recognition-based attendance management system that captures faces, stores face encodings, and marks attendance automatically when a known face is detected.  
 This project is divided into three main parts:  
 
@@ -8,13 +9,13 @@ This project is divided into three main parts:
 2. Face Encoding - Generates face encodings and saves them for recognition.  
 3. Attendance Marking - Detects faces in real-time, matches them with stored encodings, and logs attendance into a CSV file.  
 
-## Features  
+### Features  
 * Real-time face detection and recognition.  
 * Automatic attendance marking with a timestamp.  
 * Easy dataset generation for new users.  
 * Simple CSV-based attendance log.  
 
-## Installation & Setup  
+### Installation & Setup  
 1. Clone the repository:  
    git clone <repository-link>  
    cd Face-Recognition-Attendance-System  
@@ -34,31 +35,31 @@ This project is divided into three main parts:
    python attendance.py  
 
 
-## File Descriptions  
+### File Descriptions  
 * `capture_faces.py` - Script to capture face images and store them in the dataset.  
 * `face_encoding.py` - Generates face encodings from the captured dataset.  
 * `attendance.py` - Detects faces in real-time and logs attendance.  
 * `face_encoding.pkl` - Serialized encodings of faces for recognition.  
 * `attendance.csv` - Stores attendance records with names and timestamps.  
 
-## Technologies Used    
+### Technologies Used    
 * Python  
 * OpenCV  
 * Face Recognition  
 * NumPy  
 * CSV for data storage  
 
-## Contributing  
+### Contributing  
 Feel free to fork this repository and contribute by submitting a pull request. Any enhancements are welcome.  
 
-## Acknowledgments  
+### Acknowledgments  
 Special thanks to the OpenCV and Face Recognition libraries for their robust tools in computer vision.  
 
 
-## Future Enhancements  
+### Future Enhancements  
 * Add GUI for better user interaction.  
 * Integrate with database instead of CSV.  
 * Email notifications for attendance confirmation.  
 * Real-time monitoring and analytics dashboard.
-  ![Uploading Screenshot 2025-03-16 124814.png…]()
+ 
 
