@@ -1,4 +1,4 @@
-# Attendance Management(using face recognition)
+# Attendance Management (using face recognition)
 
 ### Project Description  
 A real-time face recognition-based attendance management system that captures faces, stores face encodings, and marks attendance automatically when a known face is detected.  
